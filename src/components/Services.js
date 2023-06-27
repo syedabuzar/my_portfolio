@@ -6,26 +6,22 @@ import { fadeIn } from '../variants';
 const services = [
   {
     name: 'UI/UX Design',
-    description:
-      'sajdaskhaskjhksjhaskjdhkajshdkajshdkajsdhaksjhkajshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
+    description: 'jshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
     link: 'Learn More',
   },
   {
     name: 'Development',
-    description:
-      'sajdaskhaskjhksjhaskjdhkajshdkajshdkajsdhaksjhkajshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
+    description: 'jshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
     link: 'Learn More',
   },
   {
     name: 'Digital Marketing',
-    description:
-      'sajdaskhaskjhksjhaskjdhkajshdkajshdkajsdhaksjhkajshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
+    description: 'sajdaskhhdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
     link: 'Learn More',
   },
   {
     name: 'Product Branding',
-    description:
-      'sajdaskhaskjhksjhaskjdhkajshdkajshdkajsdhaksjhkajshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
+    description: 'ajshjkashdkjhakjshdjksahdakjshkjdahskjdahkjhdakjshdk',
     link: 'Learn More',
   },
 ];
