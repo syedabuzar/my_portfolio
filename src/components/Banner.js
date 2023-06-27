@@ -2,10 +2,11 @@ import React from 'react';
 
 import Image from '../assets/avatar.svg';
 
-import { FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return (
@@ -21,25 +22,23 @@ const Banner = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'
+              className='text-[30px] font-bold leading-[0.8] lg:text-[50px]'
             >
-              BEN <span>AIDEN</span>
+              MUHAMMAD <span>ABUZAR</span>
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] '
+              className='mb-6 text-[25px] lg:text-[35px] font-secondary font-semibold uppercase leading-[1] '
             >
-              <span className='text-white mr-4'>I am a </span>
+              <span className='text-white mr-4'>I am a</span>
               <TypeAnimation
                 sequence={[
-                  'Developer',
+                  'Software Engineer',
                   2000,
-                  'Designer',
-                  2000,
-                  'Youtuber',
+                  'Frontend Developer',
                   2000,
                 ]}
                 speed={50}
@@ -55,8 +54,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              kajshdk\ashjakshdakjhdkajhsajkdhkasjdhadkjashdkjashdkjashkdjahdkjahjk.
-              ashdkajshdkjahdkajhdkajhdkajdhaksjdhsajk. dasdasdjahahsd
+              Skilled Software Engineer with hands-on experience in Web and
+              Mobile Application Development with a major focus on the frontend.
+              Functional & Technical knowledge of the React.JS, React Native,
+              Redux, JavaScript, Node.JS, Next.JS, HTML, CSS, Jira, Trello,
+              Xcode, Gradle, Project Management and Technical Analysis. Strong
+              problem-solving abilities and a continuous learner. Very flexible
+              to shift on different languages.
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
@@ -65,7 +69,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
-              <button className='btn btn-ig'>Contact Me</button>
+              <Link
+                to='contact'
+                activeClass='active'
+                smooth={true}
+                spy={true}
+                className='cursor-pointer flex items-center justify-center '
+              >
+                <button className='btn btn-lg'>Contact Me</button>
+              </Link>
+
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
               </a>
@@ -77,10 +90,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href='#'>
-                <FaYoutube />
+              <a rel='noopener' href='https://www.linkedin.com/in/syedabuzar1/'>
+                <FaLinkedin />
               </a>
-              <a href='#'>
+              <a href='https://github.com/syedabuzar'>
                 <FaGithub />
               </a>
             </motion.div>
